@@ -1,0 +1,87 @@
+.divtodo {
+    width: full;
+    background: rgb(22, 24, 21);
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#inputtodo {
+    width: 350px;
+    height: 30px;
+}
+
+#btntodo {
+    background: rgb(24, 21, 21);
+    color: aliceblue;
+    padding: 5px 7px;
+    font-size: larger;
+    letter-spacing: 2px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    font-weight: lighter;
+}
+
+#output {
+    line-height: 0;
+    display: grid;
+    justify-content: center;
+}
+
+#addedText {
+    margin: 50px 0 !important;
+}
+
+.h4 {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: auto auto;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.btn1 {
+    width: 100px;
+    background: rgb(24, 21, 21);
+    color: aliceblue;
+    padding: 7px 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid aliceblue;
+
+    border-radius: 7px;
+}
+
+.p {
+    line-height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+
+#modal {
+    /* display: none; */
+    /* margin-top: 20px; */
+    opacity: 75%;
+
+    padding-bottom: 20px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(117, 193, 164);
+    width: 50%;
+    margin: auto;
+    margin-top: 1.5em;
+    z-index: 2;
+}
+
+#close {
+    margin-top: 1.5em;
+    margin-left: 50em;
+}

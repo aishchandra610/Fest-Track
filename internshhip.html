@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;
+    300;400;500;600;700;800&family=Poppins&family=Roboto:ital,wght@0,100;
+    0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"  -->
+    <!-- rel="stylesheet"> -->.
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="culturalevents.css">
+</head>
+
+<body>
+    <h1> Internships</h1>
+
+    <div class="content">
+
+        <form id="add-eve-form"></form>
+
+        <ul id="eve-list"></ul>
+
+    </div>
+    <script src="https://js.instamojo.com/v1/checkout.js"></script>
+    <script>
+        // Initialize Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyDomBBg_pXemi1kZXr1qKRVunAYzh7yQvc",
+            authDomain: "eventbeep-7cc04.firebaseapp.com",
+            databaseURL: "https://eventbeep-7cc04-default-rtdb.firebaseio.com",
+            projectId: "eventbeep-7cc04",
+            storageBucket: "eventbeep-7cc04.appspot.com",
+            messagingSenderId: "602245976409",
+            appId: "1:602245976409:web:2fdb01b3072d9dc2f0fc48",
+            measurementId: "G-L8Q0QGZKT4"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        db.settings({ timestampsInSnapshots: true }); 
+    </script>
+    <video src="images/rendering-26011.mp4" autoplay muted loop></video>
+    <script src="internship.js"></script>
+</body>
+
+</html>
